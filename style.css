@@ -43,18 +43,22 @@ body{
 }
 
 .gallery-section{
-    height: 60%;
+    height: 70%;
     width: 100%;
     display: flex;
-    margin: 10px;
-    padding: 10px;
-    justify-content: space-evenly;
+    
+    justify-content: center;
     align-items: center;
 }
 
 .gallery-section img{
-    height: 80%;
-    width: 25%;
+    box-sizing: border-box;
+    height: 100%;
+    width: 30%;
+    margin: 5px;
+    padding: 20px;
+
+    /* padding: 5px; */
 }
 
 .footer{
